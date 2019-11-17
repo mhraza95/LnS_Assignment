@@ -1,0 +1,34 @@
+[
+    {
+        "model": "app.contact",
+        "fields": {
+            "name": "Hassan Raza",
+            "phone": "9000002222",
+            "email": ""
+        }
+    },
+    {
+        "model": "app.contact",
+        "fields": {
+            "name": "Shashank Kumar",
+            "phone": "6200003333",
+            "email": ""
+        }
+    },
+    {
+        "model": "app.contact",
+        "fields": {
+            "name": "Kumar shekhar",
+            "phone": "6200003344",
+            "email": ""
+        }
+    },
+    {
+        "model": "app.contact",
+        "fields": {
+            "name": "Shashank shekhar",
+            "phone": "6200003333",
+            "email": ""
+        }
+    }
+]

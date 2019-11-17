@@ -1,0 +1,14 @@
+all:
+    hosts:
+        Your_host_name
+    vars:
+        repo_url: ssh://git@bitbucket.org/youruser
+        repo: LnS_Assignment
+        home_dir: /home/ubuntu
+        repo_dir: "{{ home_dir }}/{{ repo }}"
+        django_dir: "{{ repo_dir }}/LnS_Assignment"
+        static_dir: "{{ home_dir }}/static"
+        django_project: LnS_Assignment
+        dbname: django
+        dbuser: django
+        dbpassword: "{{ lookup('password', 'postgresql') }}"
